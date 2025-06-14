@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Weather App</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div class="card">
+    <div class="search">
+      <input type="text" placeholder="Enter City Name" spellcheck="false" id="search" />
+      <button><img src="https://github.com/Khyes/12_weather_webapp/blob/main/img/search.png?raw=true" alt="search"></button>
+    </div>
+    <div class="error"><p>Invalid City Name</p></div>
+    <div class="weather">
+      <img src="" class="weather-icon" alt="weather"/>
+      <h1 class="temp">0°C</h1>
+      <h3 class="temp">Feels Like <span class="feels-like">0</span>°C</h3>
+      <h2 class="city">City</h2>
+      <h3 class="country">Country</h3>
+      <div class="details">
+        <div class="col">
+          <img src="https://github.com/Khyes/12_weather_webapp/blob/main/img/humidity.png?raw=true" alt="humidity">
+          <div><p class="humidity">0%</p><p>Humidity</p></div>
+        </div>
+        <div class="col">
+          <img src="https://github.com/Khyes/12_weather_webapp/blob/main/img/wind.png?raw=true" alt="wind">
+          <div><p class="wind">0 km/h</p><p>Wind Speed</p></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
