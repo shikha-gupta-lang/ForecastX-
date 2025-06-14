@@ -83,10 +83,4 @@ This project is licensed under the MIT License. Feel free to use, modify, and di
 
 ---
 
-## 📸 Preview
-
-![App Screenshot](https://github.com/your-username/skycast/blob/main/preview.png)
-
----
-
 Happy forecasting with **ForecastX**! ⛅
